@@ -1,0 +1,9 @@
+/bin
+
+/.idea/*
+
+*.yaml
+
+*.iml
+
+.DS_Store
