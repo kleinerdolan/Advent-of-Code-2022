@@ -8,10 +8,10 @@ import (
 )
 
 func main() {
-	part2()
+	part01b()
 }
 
-func part1() {
+func part01a() {
 	lines := util.ReadFile("01", "data")
 	var elfs [][]string
 	var curElf []string
@@ -36,7 +36,7 @@ func part1() {
 	fmt.Println(max)
 }
 
-func part2() {
+func part01b() {
 	lines := util.ReadFile("01", "data")
 	var elfs [][]string
 	var curElf []string
